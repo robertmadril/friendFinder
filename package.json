@@ -1,0 +1,28 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "friend finder using express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertmadril/friendFinder.git"
+  },
+  "keywords": [
+    "friend",
+    "finder",
+    "express"
+  ],
+  "author": "Robert Madril",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertmadril/friendFinder/issues"
+  },
+  "homepage": "https://github.com/robertmadril/friendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
