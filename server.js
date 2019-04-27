@@ -10,7 +10,7 @@ var PORT = process.env.PORT || 8080;
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
+app.use(express.static(__dirname + '/app/public'));
 // Require routing files
 
 require("./app/routing/apiRoutes")(app);
@@ -25,7 +25,6 @@ app.listen(PORT, function() {
 /*
 
 To-do
-Build bootstrap page HTML
 Build AJAX calls
 Build logic to determine friend score
 */
