@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Require routing files
 
-//require("./app/routing/apiRoutes")(app);
+require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
 // begins server
@@ -21,3 +21,11 @@ require("./app/routing/htmlRoutes")(app);
 app.listen(PORT, function() {
   console.log("App listening on PORT: " + PORT);
 });
+
+/*
+
+To-do
+Build bootstrap page HTML
+Build AJAX calls
+Build logic to determine friend score
+*/
